@@ -1,0 +1,61 @@
+{
+    "ALU-01": {
+        "conditions": [
+            {
+                "parameter": "beam",
+                "amount": 12,
+                "unit": "feet"
+            }
+        ],
+        "quantity": 1
+    },
+    "ALU-02": {
+        "conditions": [
+            {
+                "parameter": "width",
+                "amount": 8,
+                "unit": "feet"
+            }
+        ],
+        "quantity": 1
+    },
+    "ALU-03": {
+        "conditions": [
+            {
+                "parameter": "post",
+                "amount": 10,
+                "unit": "feet"
+            }
+        ],
+        "quantity": 1
+    },
+    "ALU-04": {
+        "quantity": 1
+    },
+    "ALU-05": {
+        "quantity": 1
+    },
+    "ALU-06": {
+        "conditions": [
+            {
+                "parameter": "projection",
+                "amount": 8,
+                "unit": "feet"
+            }
+        ],
+        "quantity": 2
+    },
+    "ALU-07": {
+        "conditions": [
+            {
+                "parameter": "width",
+                "amount": 8,
+                "unit": "feet"
+            }
+        ],
+        "quantity": 1
+    },
+    "ALU-08": {
+        "quantity": 2
+    }
+}

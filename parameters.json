@@ -1,0 +1,56 @@
+{
+    "width": {
+        "default": 10,
+        "min": 8,
+        "max": 20,
+        "step": 0.5
+    },
+    "height": {
+        "default": 8,
+        "min": 8,
+        "max": 10,
+        "step": 1
+    },
+    "projection": {
+        "default": 10,
+        "min": 8,
+        "max": 20,
+        "step": 0.5
+    },
+    "side_oh": {
+        "default": 1,
+        "min": 0,
+        "max": 3,
+        "step": 1
+    },
+    "front_oh": {
+        "default": 1,
+        "min": 0,
+        "max": 3,
+        "step": 1
+    },
+    "freestanding": {
+        "default": false
+    },
+    "roof": {
+        "thickness": {
+            "default": 0.25
+        }
+    },
+    "beam": {
+        "thickness": {
+            "default": 0.1667
+        },
+        "height": {
+            "default": 0.4167
+        },
+        "extended": {
+            "default": true
+        }
+    },
+    "post": {
+        "size": {
+            "default": 0.25
+        }
+    }
+}

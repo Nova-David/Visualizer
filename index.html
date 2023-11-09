@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            .overlay {
+                height: 100vh;
+                width: 100vw;
+                background: rgba(0, 0, 0, 0.3);
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .materials {
+                position: relative;
+                background: rgba(255, 255, 255, 1);
+                padding: 40px;
+                border-radius: 5px;
+            }
+
+            td {
+                padding: 5px 10px;
+            }
+
+            tfoot td {
+                font-weight: bold;
+            }
+
+            .close {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 50px;
+                line-height: 50px;
+                cursor: pointer;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="overlay">
+            <div class="materials">
+                <div class="close" onclick="document.querySelector('.overlay').style.display = 'none'">X</div>
+                <table id="materialList">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Material</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Total Price: </td>
+                            <td id="totalPrice">$0.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+        <script type="module" src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+ALU-01, 12' Standard Aluminum Beams, 75.00
+ALU-02, 8' Aluminum Roof Panel, 45.50
+ALU-03, 10' Support Posts, 22.75
+ALU-04, Gutter System, 30.00
+ALU-05, End Caps, 5.50
+ALU-06, Mounting Brackets, 12.00
+ALU-07, Roof Panel Connectors, 8.50
+ALU-08, Beam Caps, 4.75
